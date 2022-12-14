@@ -77,7 +77,6 @@ const createIncompleteList = (text) => {
 
   //未完了リストに追加
   document.getElementById("incomplete-list").appendChild(li);
-  console.log(li);
 };
 
 document
