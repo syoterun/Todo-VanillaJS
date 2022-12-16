@@ -56,7 +56,7 @@ const createIncompleteList = (text) => {
       createIncompleteList(text);
     });
 
-    // 完了したタスクに完了済みのタスクを追加
+    // complete-listに完了済みのタスクを追加
     addTarget.firstElementChild.appendChild(p);
     addTarget.firstElementChild.appendChild(backButton);
     document.getElementById("complete-list").appendChild(addTarget);

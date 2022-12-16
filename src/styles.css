@@ -24,6 +24,7 @@ button:hover {
 
 p {
   height: 22px;
+  padding-bottom: 0px;
 }
 
 .input-area {
@@ -56,6 +57,7 @@ p {
 .title {
   text-align: center;
   margin-top: 0px;
+  margin-bottom: 0px;
   font-weight: bold;
   color: #666;
 }
